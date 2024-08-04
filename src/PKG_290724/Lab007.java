@@ -22,9 +22,12 @@ public class Lab007 {
         int c = sc.nextInt();
         if (a == b && a == c) {
             System.out.println("Equilateral");
-        } else if (a != b && a != c) {
+        } else if (a != b && a != c && b != c) {
             System.out.println("Scalene");
+        } else {
+            System.out.println("Isosceles");
+            
         }
 
-        }
+    }
     }
