@@ -1,6 +1,5 @@
 package PKG_290724;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Lab007 {
@@ -13,5 +12,19 @@ public class Lab007 {
 // side1, side2, side3 ->
 //Triangle 3 sides
 
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("a");
+        int a = sc.nextInt();
+        System.out.println("b");
+        int b = sc.nextInt();
+        System.out.println("c");
+        int c = sc.nextInt();
+        if (a == b && a == c) {
+            System.out.println("Equilateral");
+        } else if (a != b && a != c) {
+            System.out.println("Scalene");
+        }
 
-}
+        }
+    }
